@@ -76,7 +76,7 @@ def run(songs)
         when "exit"
             exit_jukebox()
         else 
-            puts "Please enter a command:"
-            case command
+            puts "This is not a valid command!"
+            help()
     end
 end

@@ -62,6 +62,7 @@ end
 # Method for running the jukebox
 
 def run(songs)
+    help()
     puts "Please enter a command:"
     command = gets.strip
 

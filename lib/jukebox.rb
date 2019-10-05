@@ -77,6 +77,6 @@ def run(songs)
             exit_jukebox()
         else 
             puts "This is not a valid command!"
-            help()
+            run(songs)
     end
 end

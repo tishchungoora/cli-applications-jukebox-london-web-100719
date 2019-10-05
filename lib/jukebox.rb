@@ -57,3 +57,24 @@ end
 def exit_jukebox()
     puts "Goodbye"
 end
+
+
+# Method for running the jukebox
+
+def run(songs)
+    puts "Please enter a command:"
+    command = gets.strip
+
+    case command
+        when "help"
+            help()
+        when "list"
+            list(songs)
+        when "play"
+            play(songs)
+        when "exit"
+            exit_jukebox()
+        else 
+            puts "Please enter a command:"
+    end
+end
